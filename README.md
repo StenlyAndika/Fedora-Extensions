@@ -1,17 +1,17 @@
-# Fedora Extension
+# Fedora Extension Collection
 
-Collection of GNOME Shell extensions for Fedora, either maintained forks of abandoned projects or custom implementations.
+A collection of GNOME Shell extensions for Fedora, maintained as an updated fork of abandoned upstream projects.
 
-## Structure
+## Projects
 
-Each extension lives in its own subdirectory:
+| Extension | Description |
+|-----------|-------------|
+| [media-controls](./media-controls) | Show controls and information of currently playing media in the panel |
 
-- `media-controls/` - Media playback controls in the panel (fork of sakithb/media-controls)
+## Adding New Projects
 
-## Adding New Extensions
+Each project lives in its own subdirectory with its own build toolchain and dependencies.
 
-Extensions are added when upstream projects become abandoned or lack critical updates. Place new extension directories alongside existing ones.
+## License
 
-## Development
-
-Each extension has its own build system. Check individual `README.md` and `package.json` for extension-specific commands.
+Each project retains its original license (typically GPL v3). See individual project directories for details.
